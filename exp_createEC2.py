@@ -11,8 +11,8 @@ def create_ec2_instance():
         MinCount=1,
         MaxCount=1,
         KeyName='key-ec2',
-        SecurityGroupIds=['sg-08c42ceeb95753756'], # Security group
-        SubnetId='subnet-0a5bed300335b3a23',
+        SecurityGroupIds=['sg-08c42ceeb9575xxxx'], # Security group
+        SubnetId='subnet-0a5bed300335xxxxx',
         TagSpecifications=[
         {
             'ResourceType': 'instance',
